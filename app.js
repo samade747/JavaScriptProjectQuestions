@@ -14,6 +14,12 @@ function plus1() {
     minusd.style.display = 'inline';
     box1para.style.display = 'inline';
     plusd.style.display = 'none';
+
+    minusd3.style.display = 'none';
+    box3para.style.display = 'none';
+    plusd3.style.display = 'inline';
+
+    
 }
 
 
@@ -44,6 +50,11 @@ function plus2() {
     minusd2.style.display = 'inline';
     box2para.style.display = 'inline';
     plusd2.style.display = 'none';
+
+    minusd3.style.display = 'none';
+    box3para.style.display = 'none';
+    plusd3.style.display = 'inline';
+
 }
 
 
@@ -68,6 +79,14 @@ box3para.style.display = 'none';
 
 
 function plus3() {
+
+    minusd2.style.display = 'none';
+    box2para.style.display = 'none';
+    plusd2.style.display = 'inline';
+    
+    minusd.style.display = 'none';
+    box1para.style.display = 'none';
+    plusd.style.display = 'inline';
 
     minusd2.style.display = 'none';
     box2para.style.display = 'none';
