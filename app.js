@@ -19,6 +19,9 @@ function plus1() {
     box3para.style.display = 'none';
     plusd3.style.display = 'inline';
 
+    minusd2.style.display = 'none';
+    box2para.style.display = 'none';
+    plusd2.style.display = 'inline';
     
 }
 
