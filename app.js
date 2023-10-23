@@ -9,3 +9,16 @@ console.log(minusd);
 let box1para = document.querySelector('.box1-para');
 minusd.style.display = 'none';
 box1para.style.display = 'none';
+
+function plus1() {
+    minusd.style.display = 'inline';
+    box1para.style.display = 'inline';
+    plusd.style.display = 'none';
+}
+
+
+function minus1() {
+    minusd.style.display = 'none';
+    box1para.style.display = 'none';
+    plusd.style.display = 'inline';
+}
