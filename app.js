@@ -47,3 +47,30 @@ function minus2() {
     box2para.style.display = 'none';
     plusd2.style.display = 'inline';
 }
+
+
+
+
+
+let box3 = document.querySelector('.box3');
+let box3inner = document.getElementById('box3-inner');
+let plusd3 = document.querySelector('.plus3');
+let minusd3 = document.querySelector('.minus3');
+console.log(minusd3);
+let box3para = document.querySelector('.box3-para');
+minusd3.style.display = 'none';
+box3para.style.display = 'none';
+
+
+function plus3() {
+    minusd3.style.display = 'inline';
+    box3para.style.display = 'inline';
+    plusd3.style.display = 'none';
+}
+
+
+function minus3() {
+    minusd3.style.display = 'none';
+    box3para.style.display = 'none';
+    plusd3.style.display = 'inline';
+}
