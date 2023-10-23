@@ -33,6 +33,10 @@ box3para.style.display = 'none';
 
 
 function plus1() {
+    minusd2.style.display = 'none';
+    box2para.style.display = 'none';
+    plusd2.style.display = 'inline';
+
     minusd.style.display = 'inline';
     box1para.style.display = 'inline';
     plusd.style.display = 'none';
@@ -44,6 +48,9 @@ function plus1() {
     minusd2.style.display = 'none';
     box2para.style.display = 'none';
     plusd2.style.display = 'inline';
+
+
+    
 
 
     minusd2.style.display = 'none';
