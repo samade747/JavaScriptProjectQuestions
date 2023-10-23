@@ -22,3 +22,28 @@ function minus1() {
     box1para.style.display = 'none';
     plusd.style.display = 'inline';
 }
+
+
+
+let box2 = document.querySelector('.box2');
+let box2inner = document.getElementById('box2-inner');
+let plusd2 = document.querySelector('.plus2');
+let minusd2 = document.querySelector('.minus2');
+console.log(minusd2);
+let box2para = document.querySelector('.box2-para');
+minusd2.style.display = 'none';
+box2para.style.display = 'none';
+
+
+function plus2() {
+    minusd2.style.display = 'inline';
+    box2para.style.display = 'inline';
+    plusd2.style.display = 'none';
+}
+
+
+function minus2() {
+    minusd2.style.display = 'none';
+    box2para.style.display = 'none';
+    plusd2.style.display = 'inline';
+}
