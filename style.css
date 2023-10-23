@@ -27,3 +27,15 @@ body{
     
 }
 
+.box2{
+    background-color: white;
+    border-radius: 10px;
+    width: 50rem;
+    height: fit-content;
+    padding: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+    
+}
